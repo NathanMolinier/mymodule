@@ -1,0 +1,34 @@
+[project]
+name = "mymodule"
+version = "0.1.0"
+description = "Create a pyproject.toml file for an existing project."
+authors = [
+    {name = "Nathan Molinier"},
+    {email = "nathan.molinier@polymtl.ca"}
+]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+requires-python = ">=3.6"
+
+keywords = ["packaging", "dependency", "pyproject.toml"]
+
+classifiers = [
+    "Topic :: Software Development"
+]
+
+dependencies = [
+    "numpy"
+]
+
+[project.urls]
+homepage = "https://github.com/NathanMolinier/mymodule"
+documentation = "https://github.com/NathanMolinier/mymodule"
+repository = "https://github.com/NathanMolinier/mymodule"
+
+[build-system]
+requires = [
+    "setuptools >= 35.0.2",
+    "setuptools_scm >= 2.0.0, <3"
+]
+build-backend = "setuptools.build_meta"
+
