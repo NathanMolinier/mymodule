@@ -1,7 +1,7 @@
 import numpy as np
 
 def sum(x,y):
-   return np.sum(x,y)
+   return x+y
 
 def average(x,y):
    return (x+y)/2
